@@ -21,7 +21,9 @@ var ruleTester = new RuleTester({
 
 ruleTester.run('injected-service-name', rule, {
   valid: [
-    // give me some code that won't trigger a warning
+    {
+      code: 'class Test { constructor(private userService: UserService) {} }',
+    },
   ],
 
   invalid: [
@@ -29,8 +31,7 @@ ruleTester.run('injected-service-name', rule, {
       code: 'class Test { constructor(private user: UserService) {} }',
       errors: [
         {
-          message: 'Fill me in.',
-          type: 'Me too',
+          message: "Injected service's name should be the camel case form of the service name",
         },
       ],
     },

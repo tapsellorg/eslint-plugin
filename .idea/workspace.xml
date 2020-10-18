@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+      </list>
+    </option>
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -39,6 +46,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -69,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602935812350</updated>
-      <workItem from="1602935813585" duration="9822000" />
+      <workItem from="1602935813585" duration="14298000" />
     </task>
     <servers />
   </component>
@@ -88,29 +100,33 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="418" y="191" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1602973621804" />
-    <state width="1874" height="289" key="GridCell.Tab.0.bottom" timestamp="1602973841279">
+    <state width="1874" height="289" key="GridCell.Tab.0.bottom" timestamp="1603006576304">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1874" height="289" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1602973841279" />
-    <state width="1874" height="289" key="GridCell.Tab.0.center" timestamp="1602973841278">
+    <state width="1874" height="289" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1603006576304" />
+    <state width="1874" height="289" key="GridCell.Tab.0.center" timestamp="1603006576301">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1874" height="289" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1602973841278" />
-    <state width="1874" height="289" key="GridCell.Tab.0.left" timestamp="1602973841277">
+    <state width="1874" height="289" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1603006576301" />
+    <state width="1874" height="289" key="GridCell.Tab.0.left" timestamp="1603006576299">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1874" height="289" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1602973841277" />
-    <state width="1874" height="289" key="GridCell.Tab.0.right" timestamp="1602973841278">
+    <state width="1874" height="289" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1603006576299" />
+    <state width="1874" height="289" key="GridCell.Tab.0.right" timestamp="1603006576303">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1874" height="289" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1602973841278" />
+    <state width="1874" height="289" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1603006576303" />
     <state x="449" y="168" width="1022" height="737" key="SettingsEditor" timestamp="1602960989477">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="449" y="168" width="1022" height="737" key="SettingsEditor/0.24.1920.1056@0.24.1920.1056" timestamp="1602960989477" />
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1602961086140">
+    <state x="624" y="242" key="run.anything.popup" timestamp="1602975959753">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1602961086140" />
+    <state x="624" y="242" key="run.anything.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1602975959753" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1603007691953">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1603007691953" />
   </component>
 </project>

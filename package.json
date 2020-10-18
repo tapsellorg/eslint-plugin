@@ -10,7 +10,10 @@
   "author": "Vahid Mohammadi",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "build": "tsc -b tsconfig.build.json",
+    "clean": "tsc -b tsconfig.build.json --clean",
+    "start": "tsc --watch",
+    "test": "mocha dist/tests --recursive --require esm --watch"
   },
   "dependencies": {
     "@typescript-eslint/parser": "^4.4.1",
@@ -19,6 +22,7 @@
   },
   "devDependencies": {
     "eslint": "^7.1.0",
+    "esm": "^3.2.25",
     "generator-eslint": "^2.0.0",
     "mocha": "^7.2.0",
     "prettier": "^2.1.2",

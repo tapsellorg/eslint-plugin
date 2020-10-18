@@ -30,6 +30,11 @@ module.exports = {
     //----------------------------------------------------------------------
     // Helpers
     //----------------------------------------------------------------------
+    function convertToCamelCase(str) {
+      return str.replace(/(?:^\w|[A-Z]|\b\w)/g, function (word, index) {
+        return index === 0 ? word.toLowerCase() : word.toUpperCase();
+      });
+    }
 
     // any helper functions should go here or else delete this section
 
@@ -42,15 +47,26 @@ module.exports = {
         if (node.kind !== 'constructor') return;
 
         (node.value.params || []).forEach(p => {
-          if (p.parameter.typeAnnotation.typeAnnotation.typeName.name.endsWith('Service')) {
-            if (p.parameter.name) {
-            }
+          const typeName: string | undefined =
+            p?.parameter?.typeAnnotation?.typeAnnotation?.typeName?.name;
+
+          if (!typeName?.endsWith('Service')) {
+            return;
           }
-          console.log(
-            '#ee node',
-            p.parameter,
-            p.parameter.typeAnnotation.typeAnnotation.typeName.name,
-          );
+
+          const parameterName = p?.parameter?.name;
+          if (!parameterName) {
+            return;
+          }
+
+          if (parameterName === convertToCamelCase(typeName)) {
+            return true;
+          }
+
+          context.report({
+            message: `Injected service's name should be the camel case form of the service name`,
+            node: p,
+          });
         });
       },
     };
