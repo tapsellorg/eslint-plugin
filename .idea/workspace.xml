@@ -13,8 +13,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d57b332-c603-41c0-a594-ccebc035d231" name="Default Changelist" comment="remove prepublishOnly script">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="5d57b332-c603-41c0-a594-ccebc035d231" name="Default Changelist" comment="Update rules">
+      <change beforePath="$PROJECT_DIR$/tsconfig.base.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.base.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602935812350</updated>
       <workItem from="1602935813585" duration="21236000" />
-      <workItem from="1603030119843" duration="6447000" />
+      <workItem from="1603030119843" duration="7194000" />
     </task>
     <task id="LOCAL-00001" summary="build and update">
       <created>1603046303854</created>
@@ -146,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603046421884</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update README.md">
+      <created>1603046687619</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603046687619</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update rules">
+      <created>1603046826146</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603046826146</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -171,7 +185,9 @@
     <MESSAGE value="build and update" />
     <MESSAGE value="Add build output dir ignore" />
     <MESSAGE value="remove prepublishOnly script" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove prepublishOnly script" />
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="Update rules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update rules" />
   </component>
   <component name="WindowStateProjectService">
     <state x="806" y="425" width="298" height="224" key="#ESLint" timestamp="1602936069107">
@@ -210,9 +226,9 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="624" y="242" key="run.anything.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1602975959753" />
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1603046310759">
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1603046962124">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1603046310759" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1603046962124" />
   </component>
 </project>

@@ -6,6 +6,7 @@
     "esModuleInterop": true,
     "module": "commonjs",
     "moduleResolution": "node",
+    "allowJs": true,
     //    "allowUnreachableCode": false,
     //    "allowUnusedLabels": false,
     //    "noImplicitReturns": true,
