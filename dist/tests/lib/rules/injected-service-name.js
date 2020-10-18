@@ -2,15 +2,9 @@
  * @fileoverview The name of the injected service should be the camelCase form of the service
  * @author Vahid Mohammadi
  */
-'use strict';
-//------------------------------------------------------------------------------
-// Requirements
-//------------------------------------------------------------------------------
-var rule = require('../../../lib/rules/injected-service-name'), RuleTester = require('eslint').RuleTester;
-//------------------------------------------------------------------------------
-// Tests
-//------------------------------------------------------------------------------
-var ruleTester = new RuleTester({
+const rule = require('../../../lib/rules/injected-service-name');
+const RuleTester = require('eslint').RuleTester;
+const ruleTester = new RuleTester({
     parser: require.resolve('@typescript-eslint/parser'),
 });
 ruleTester.run('injected-service-name', rule, {
@@ -27,6 +21,7 @@ ruleTester.run('injected-service-name', rule, {
                     message: "Injected service's name should be the camel case form of the service name",
                 },
             ],
+            output: 'class Test { constructor(private userService: UserService) {} }',
         },
     ],
 });

@@ -2,59 +2,55 @@
  * @fileoverview The name of the injected service should be the camelCase form of the service
  * @author Vahid Mohammadi
  */
-'use strict';
+import { TSESTree } from '@typescript-eslint/experimental-utils';
+import { RuleModule } from '@typescript-eslint/experimental-utils/dist/ts-eslint';
 
-//------------------------------------------------------------------------------
-// Rule Definition
-//------------------------------------------------------------------------------
+export type MessageIds = 'wrongInjectedServiceName';
 
-module.exports = {
+const rule: RuleModule<MessageIds, any> = {
   meta: {
-    type: 'Suggestion',
+    type: 'suggestion',
     docs: {
       description: 'The name of the injected service should be the camelCase form of the service',
       category: 'Best Practices',
-      recommended: true,
+      recommended: 'warn',
+      url: '',
     },
-    fixable: null, // or "code" or "whitespace"
+    fixable: 'code',
     schema: [
       {
         enum: ['always', 'never'],
       },
     ],
+    messages: {
+      wrongInjectedServiceName: `Injected service's name should be the camel case form of the service name`,
+    },
   },
 
   create: function (context) {
-    // variables should be defined here
-
-    //----------------------------------------------------------------------
-    // Helpers
-    //----------------------------------------------------------------------
     function convertToCamelCase(str) {
       return str.replace(/(?:^\w|[A-Z]|\b\w)/g, function (word, index) {
         return index === 0 ? word.toLowerCase() : word.toUpperCase();
       });
     }
 
-    // any helper functions should go here or else delete this section
-
-    //----------------------------------------------------------------------
-    // Public
-    //----------------------------------------------------------------------
-
     return {
-      MethodDefinition: function (node) {
-        if (node.kind !== 'constructor') return;
+      MethodDefinition: function (node: TSESTree.MethodDefinition) {
+        if (node?.kind !== 'constructor') return;
 
-        (node.value.params || []).forEach(p => {
-          const typeName: string | undefined =
-            p?.parameter?.typeAnnotation?.typeAnnotation?.typeName?.name;
+        (node?.value?.params || []).forEach(p => {
+          if (!('parameter' in p)) return;
+
+          const parameter = p?.parameter as TSESTree.Identifier | undefined;
+
+          const typeName = ((parameter?.typeAnnotation?.typeAnnotation as TSESTree.TSTypeReference)
+            ?.typeName as TSESTree.Identifier)?.name;
 
           if (!typeName?.endsWith('Service')) {
             return;
           }
 
-          const parameterName = p?.parameter?.name;
+          const parameterName = parameter?.name;
           if (!parameterName) {
             return;
           }
@@ -64,11 +60,16 @@ module.exports = {
           }
 
           context.report({
-            message: `Injected service's name should be the camel case form of the service name`,
+            messageId: 'wrongInjectedServiceName',
             node: p,
+            fix: fixer => {
+              return fixer.replaceText(parameter, `${convertToCamelCase(typeName)}: ${typeName}`);
+            },
           });
         });
       },
     };
   },
 };
+
+module.exports = rule;

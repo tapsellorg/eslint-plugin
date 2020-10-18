@@ -3,16 +3,19 @@
  * @author Vahid Mohammadi
  */
 'use strict';
-
 //------------------------------------------------------------------------------
 // Requirements
 //------------------------------------------------------------------------------
-
-var requireIndex = require('requireindex');
-
+const requireIndex = require('requireindex');
+const angular = require('./configs/angular');
 //------------------------------------------------------------------------------
 // Plugin Definition
 //------------------------------------------------------------------------------
-
 // import all rules in lib/rules
-module.exports.rules = requireIndex(__dirname + '/rules');
+module.exports = {
+    rules: requireIndex(__dirname + '/rules'),
+    configs: {
+        angular,
+    },
+};
+//# sourceMappingURL=index.js.map

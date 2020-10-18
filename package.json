@@ -1,21 +1,38 @@
 {
-  "name": "eslint-plugin-tapsell",
-  "version": "0.0.0",
-  "description": "Tapsell custom eslint plugin",
+  "name": "@tapsellorg/eslint-config",
+  "version": "1.0.1",
+  "description": "An Eslint plugin recommended by Tapsell.",
   "keywords": [
     "eslint",
     "eslintplugin",
-    "eslint-plugin"
+    "eslint-plugin",
+    "typescript"
   ],
-  "author": "Vahid Mohammadi",
-  "main": "lib/index.js",
+  "author": "Vahid Mohammadi <vahidm1467@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tapsellorg/eslint-config/issues"
+  },
+  "homepage": "https://github.com/tapsellorg/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tapsellorg/eslint-config.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
   "scripts": {
+    "prebuild": "rm -rf dist",
     "build": "tsc -b tsconfig.build.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test",
     "clean": "tsc -b tsconfig.build.json --clean",
     "start": "tsc --watch",
     "test": "mocha dist/tests --recursive --require esm --watch"
   },
   "dependencies": {
+    "@typescript-eslint/experimental-utils": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
     "requireindex": "~1.1.0",
     "typescript": "^4.0.3"
@@ -33,6 +50,5 @@
   },
   "engines": {
     "node": ">=0.10.0"
-  },
-  "license": "ISC"
+  }
 }
