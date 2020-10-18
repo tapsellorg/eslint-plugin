@@ -13,8 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d57b332-c603-41c0-a594-ccebc035d231" name="Default Changelist" comment="Update README.md">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="5d57b332-c603-41c0-a594-ccebc035d231" name="Default Changelist" comment="Fix typos">
+      <change afterPath="$PROJECT_DIR$/lib/rules/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -124,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602935812350</updated>
       <workItem from="1602935813585" duration="21236000" />
-      <workItem from="1603030119843" duration="8974000" />
+      <workItem from="1603030119843" duration="11927000" />
     </task>
     <task id="LOCAL-00001" summary="build and update">
       <created>1603046303854</created>
@@ -189,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603049102313</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fix typos">
+      <created>1603049217181</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603049217181</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -218,7 +227,8 @@
     <MESSAGE value="Add eslint configs build output" />
     <MESSAGE value="init tapsell eslint plugin" />
     <MESSAGE value="Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+    <MESSAGE value="Fix typos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix typos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="806" y="425" width="298" height="224" key="#ESLint" timestamp="1602936069107">
@@ -261,9 +271,9 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="624" y="242" key="run.anything.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1602975959753" />
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1603049061100">
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1603052423933">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1603049061100" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1603052423933" />
   </component>
 </project>

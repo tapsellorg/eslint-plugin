@@ -31,7 +31,8 @@
     "prepare": "npm run build",
     "clean": "tsc -b tsconfig.build.json --clean",
     "start": "tsc --watch",
-    "test": "mocha dist/tests --recursive --require esm --watch"
+    "test": "mocha dist/tests --recursive --require esm --watch",
+    "postversion": "git push && git push --tags"
   },
   "dependencies": {
     "@typescript-eslint/experimental-utils": "^4.4.1",

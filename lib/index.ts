@@ -3,7 +3,7 @@
  * @author Vahid Mohammadi
  */
 
-import requireIndex from 'requireindex';
+import rules from './rules';
 import angular from './configs/angular';
 
 //------------------------------------------------------------------------------
@@ -12,7 +12,7 @@ import angular from './configs/angular';
 
 // import all rules in lib/rules
 export = {
-  rules: requireIndex(__dirname + '/rules'),
+  rules,
   configs: {
     angular,
   },
