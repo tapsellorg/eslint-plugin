@@ -11,12 +11,12 @@
   "author": "Vahid Mohammadi <vahidm1467@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tapsellorg/eslint-config/issues"
+    "url": "https://github.com/tapsellorg/eslint-plugin/issues"
   },
-  "homepage": "https://github.com/tapsellorg/eslint-config#readme",
+  "homepage": "https://github.com/tapsellorg/eslint-plugin#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tapsellorg/eslint-config.git"
+    "url": "git+https://github.com/tapsellorg/eslint-plugin.git"
   },
   "publishConfig": {
     "access": "public"

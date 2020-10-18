@@ -1,11 +1,11 @@
-# @tapsellorg/eslint-config
+# @tapsellorg/eslint-plugin
 
 Tapsell custom eslint plugin
 
 ## Installation
 
 ```
-npm i -D @tapsellorg/eslint-config eslint
+npm i -D @tapsellorg/eslint-plugin eslint
 ```
 
 ## Usage
