@@ -2,21 +2,16 @@
  * @fileoverview Tapsell custom eslint plugin
  * @author Vahid Mohammadi
  */
-'use strict';
 
-//------------------------------------------------------------------------------
-// Requirements
-//------------------------------------------------------------------------------
-
-const requireIndex = require('requireindex');
-const angular = require('./configs/angular');
+import requireIndex from 'requireindex';
+import angular from './configs/angular';
 
 //------------------------------------------------------------------------------
 // Plugin Definition
 //------------------------------------------------------------------------------
 
 // import all rules in lib/rules
-module.exports = {
+export = {
   rules: requireIndex(__dirname + '/rules'),
   configs: {
     angular,

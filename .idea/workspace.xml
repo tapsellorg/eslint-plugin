@@ -13,8 +13,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d57b332-c603-41c0-a594-ccebc035d231" name="Default Changelist" comment="Update rules">
-      <change beforePath="$PROJECT_DIR$/tsconfig.base.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.base.json" afterDir="false" />
+    <list default="true" id="5d57b332-c603-41c0-a594-ccebc035d231" name="Default Changelist" comment="Add eslint configs build output">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rules/injected-service-name.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rules/injected-service-name.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602935812350</updated>
       <workItem from="1602935813585" duration="21236000" />
-      <workItem from="1603030119843" duration="7194000" />
+      <workItem from="1603030119843" duration="8652000" />
     </task>
     <task id="LOCAL-00001" summary="build and update">
       <created>1603046303854</created>
@@ -160,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603046826146</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add eslint configs build output">
+      <created>1603047448114</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603047448114</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -187,7 +197,8 @@
     <MESSAGE value="remove prepublishOnly script" />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Update rules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update rules" />
+    <MESSAGE value="Add eslint configs build output" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add eslint configs build output" />
   </component>
   <component name="WindowStateProjectService">
     <state x="806" y="425" width="298" height="224" key="#ESLint" timestamp="1602936069107">

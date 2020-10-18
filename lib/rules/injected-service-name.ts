@@ -5,7 +5,7 @@
 import { TSESTree } from '@typescript-eslint/experimental-utils';
 import { RuleModule } from '@typescript-eslint/experimental-utils/dist/ts-eslint';
 
-export type MessageIds = 'wrongInjectedServiceName';
+type MessageIds = 'wrongInjectedServiceName';
 
 const rule: RuleModule<MessageIds, any> = {
   meta: {
@@ -72,4 +72,4 @@ const rule: RuleModule<MessageIds, any> = {
   },
 };
 
-module.exports = rule;
+export = rule;
