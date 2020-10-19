@@ -13,7 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d57b332-c603-41c0-a594-ccebc035d231" name="Default Changelist" comment="Install packages&#10;update naming convetions" />
+    <list default="true" id="5d57b332-c603-41c0-a594-ccebc035d231" name="Default Changelist" comment="Update dependencies" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +123,7 @@
       <updated>1602935812350</updated>
       <workItem from="1602935813585" duration="21236000" />
       <workItem from="1603030119843" duration="12587000" />
-      <workItem from="1603122202038" duration="1197000" />
+      <workItem from="1603122202038" duration="1561000" />
     </task>
     <task id="LOCAL-00001" summary="build and update">
       <created>1603046303854</created>
@@ -209,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603123080146</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Update dependencies">
+      <created>1603123711505</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603123711505</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -242,7 +249,8 @@
     <MESSAGE value="Fix typos" />
     <MESSAGE value="Add rules index.ts" />
     <MESSAGE value="Install packages&#10;update naming convetions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install packages&#10;update naming convetions" />
+    <MESSAGE value="Update dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update dependencies" />
   </component>
   <component name="WindowStateProjectService">
     <state x="806" y="425" width="298" height="224" key="#ESLint" timestamp="1602936069107">

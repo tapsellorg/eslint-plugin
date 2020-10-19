@@ -35,18 +35,23 @@
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
+    "@angular-eslint/builder": "^0.5.0-beta.4",
+    "@angular-eslint/eslint-plugin": "^0.5.0-beta.4",
+    "@angular-eslint/eslint-plugin-template": "^0.5.0-beta.4",
+    "@angular-eslint/schematics": "^0.5.0-beta.4",
+    "@angular-eslint/template-parser": "^0.5.0-beta.4",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@typescript-eslint/experimental-utils": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
-    "@typescript-eslint/eslint-plugin": "^4.4.1",
-    "requireindex": "~1.1.0",
-    "typescript": "^4.0.3",
     "eslint-config-airbnb-typescript": "^12.0.0",
     "eslint-config-prettier": "^6.13.0",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-rxjs": "0.0.3-beta.30",
-    "eslint-plugin-unicorn": "^23.0.0"
+    "eslint-plugin-unicorn": "^23.0.0",
+    "requireindex": "~1.1.0",
+    "typescript": "^4.0.3"
   },
   "devDependencies": {
     "eslint": "^7.1.0",
