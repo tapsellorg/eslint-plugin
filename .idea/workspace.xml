@@ -13,7 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d57b332-c603-41c0-a594-ccebc035d231" name="Default Changelist" comment="Install angular-eslint dependencties">
+    <list default="true" id="5d57b332-c603-41c0-a594-ccebc035d231" name="Default Changelist" comment="Update angular naming conventions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/configs/angular.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/configs/angular.js" afterDir="false" />
     </list>
@@ -112,8 +112,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.test" />
       <item itemvalue="npm.build" />
+      <item itemvalue="npm.test" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -126,7 +126,7 @@
       <updated>1602935812350</updated>
       <workItem from="1602935813585" duration="21236000" />
       <workItem from="1603030119843" duration="12587000" />
-      <workItem from="1603122202038" duration="3729000" />
+      <workItem from="1603122202038" duration="5015000" />
     </task>
     <task id="LOCAL-00001" summary="build and update">
       <created>1603046303854</created>
@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603124029671</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update angular naming conventions">
+      <created>1603126207829</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603126207829</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -261,7 +268,8 @@
     <MESSAGE value="Install packages&#10;update naming convetions" />
     <MESSAGE value="Update dependencies" />
     <MESSAGE value="Install angular-eslint dependencties" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install angular-eslint dependencties" />
+    <MESSAGE value="Update angular naming conventions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update angular naming conventions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="806" y="425" width="298" height="224" key="#ESLint" timestamp="1602936069107">
