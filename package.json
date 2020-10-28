@@ -26,9 +26,9 @@
   ],
   "main": "dist/index.js",
   "scripts": {
-    "publish:patch": "npm version patch && npm run publish",
-    "publish:minor": "npm version minor && npm run publish",
-    "publish:major": "npm version major && npm run publish",
+    "publish:patch": "npm version patch && npm publish",
+    "publish:minor": "npm version minor && npm publish",
+    "publish:major": "npm version major && npm publish",
     "prebuild": "rm -rf dist",
     "build": "tsc -b tsconfig.build.json",
     "prepare": "npm run build",
