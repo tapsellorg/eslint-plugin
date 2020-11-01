@@ -13,7 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d57b332-c603-41c0-a594-ccebc035d231" name="Default Changelist" comment="Add ban-tslint-comment">
+    <list default="true" id="5d57b332-c603-41c0-a594-ccebc035d231" name="Default Changelist" comment="Fix publish scripts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/configs/angular.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/configs/angular.js" afterDir="false" />
     </list>
@@ -127,7 +127,8 @@
       <workItem from="1602935813585" duration="21236000" />
       <workItem from="1603030119843" duration="12587000" />
       <workItem from="1603122202038" duration="5043000" />
-      <workItem from="1603909133139" duration="510000" />
+      <workItem from="1603909133139" duration="1519000" />
+      <workItem from="1604189061205" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="build and update">
       <created>1603046303854</created>
@@ -241,7 +242,28 @@
       <option name="project" value="LOCAL" />
       <updated>1603127505130</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update some naming conventions">
+      <created>1603909655853</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1603909655853</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update publish scripts">
+      <created>1603909803069</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1603909803069</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fix publish scripts">
+      <created>1603909897577</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603909897577</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -278,7 +300,10 @@
     <MESSAGE value="Install angular-eslint dependencties" />
     <MESSAGE value="Update angular naming conventions" />
     <MESSAGE value="Add ban-tslint-comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ban-tslint-comment" />
+    <MESSAGE value="Update some naming conventions" />
+    <MESSAGE value="Update publish scripts" />
+    <MESSAGE value="Fix publish scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix publish scripts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="806" y="425" width="298" height="224" key="#ESLint" timestamp="1602936069107">
@@ -313,10 +338,10 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="449" y="168" width="1022" height="737" key="SettingsEditor/0.24.1920.1056@0.24.1920.1056" timestamp="1602960989477" />
-    <state x="555" y="269" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603127507581">
+    <state x="555" y="269" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603909805992">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="555" y="269" width="800" height="535" key="Vcs.Push.Dialog.v2/0.24.1920.1056@0.24.1920.1056" timestamp="1603127507581" />
+    <state x="555" y="269" width="800" height="535" key="Vcs.Push.Dialog.v2/0.24.1920.1056@0.24.1920.1056" timestamp="1603909805992" />
     <state x="651" y="272" width="618" height="522" key="find.popup" timestamp="1603049189612">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
@@ -325,9 +350,9 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="624" y="242" key="run.anything.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1602975959753" />
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1603909141935">
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1604189066523">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1603909141935" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1604189066523" />
   </component>
 </project>
