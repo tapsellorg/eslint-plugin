@@ -13,10 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d57b332-c603-41c0-a594-ccebc035d231" name="Default Changelist" comment="Remove invalid rules">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/configs/angular.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/configs/angular.js" afterDir="false" />
-    </list>
+    <list default="true" id="5d57b332-c603-41c0-a594-ccebc035d231" name="Default Changelist" comment="Remove &quot;@typescript-eslint/no-inferrable-types&quot; rule" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,6 +128,7 @@
       <workItem from="1604189061205" duration="1380000" />
       <workItem from="1604253471053" duration="307000" />
       <workItem from="1604732139694" duration="4736000" />
+      <workItem from="1604757768385" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="build and update">
       <created>1603046303854</created>
@@ -307,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604735921904</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Remove &quot;@typescript-eslint/no-inferrable-types&quot; rule">
+      <created>1604757792518</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1604757792518</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -353,7 +358,8 @@
     <MESSAGE value="Update angular.js" />
     <MESSAGE value="Fix memberlike naming convetion" />
     <MESSAGE value="Remove invalid rules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove invalid rules" />
+    <MESSAGE value="Remove &quot;@typescript-eslint/no-inferrable-types&quot; rule" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove &quot;@typescript-eslint/no-inferrable-types&quot; rule" />
   </component>
   <component name="WindowStateProjectService">
     <state x="806" y="425" width="298" height="224" key="#ESLint" timestamp="1602936069107">
@@ -396,10 +402,10 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="449" y="168" width="1022" height="737" key="SettingsEditor/0.24.1920.1056@0.24.1920.1056" timestamp="1602960989477" />
-    <state x="555" y="269" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604735465899">
+    <state x="555" y="269" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604757794454">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="555" y="269" width="800" height="535" key="Vcs.Push.Dialog.v2/0.24.1920.1056@0.24.1920.1056" timestamp="1604735465899" />
+    <state x="555" y="269" width="800" height="535" key="Vcs.Push.Dialog.v2/0.24.1920.1056@0.24.1920.1056" timestamp="1604757794454" />
     <state x="651" y="272" width="618" height="522" key="find.popup" timestamp="1603049189612">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
