@@ -16,7 +16,7 @@ const rule: RuleModule<MessageIds, any> = {
       recommended: 'warn',
       url: '',
     },
-    fixable: 'code',
+    // fixable: 'code',
     schema: [
       {
         enum: ['always', 'never'],
@@ -62,9 +62,9 @@ const rule: RuleModule<MessageIds, any> = {
           context.report({
             messageId: 'wrongInjectedServiceName',
             node: p,
-            fix: fixer => {
-              return fixer.replaceText(parameter, `${convertToCamelCase(typeName)}: ${typeName}`);
-            },
+            // fix: fixer => {
+            //   return fixer.replaceText(parameter, `${convertToCamelCase(typeName)}: ${typeName}`);
+            // },
           });
         });
       },
