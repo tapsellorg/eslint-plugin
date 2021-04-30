@@ -1,0 +1,6 @@
+{
+  "lib/**/*.{js,jsx,ts,tsx,scss,json,html,css,md}": ["prettier --write"],
+  "lib/**/*.{ts,js,html}": ["eslint --fix"],
+  "tests/**/*.{js,jsx,ts,tsx,scss,json,html,css,md}": ["prettier --write"],
+  "tests/**/*.{ts,js,html}": ["eslint --fix"]
+}
