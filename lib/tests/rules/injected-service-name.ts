@@ -3,7 +3,7 @@
  * @author Vahid Mohammadi
  */
 
-const rule = require('../../../lib/rules/injected-service-name');
+const rule = require('../../rules/injected-service-name');
 const RuleTester = require('eslint').RuleTester;
 
 const ruleTester = new RuleTester({
@@ -25,7 +25,6 @@ ruleTester.run('injected-service-name', rule, {
           message: "Injected service's name should be the camel case form of the service name",
         },
       ],
-      output: 'class Test { constructor(private userService: UserService) {} }',
     },
   ],
 });
