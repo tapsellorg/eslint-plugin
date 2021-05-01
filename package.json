@@ -31,7 +31,7 @@
     "build": "tsc -b tsconfig.build.json",
     "clean": "tsc -b tsconfig.build.json --clean",
     "start": "tsc --watch",
-    "test": "mocha dist/tests --recursive --require esm",
+    "test": "mocha dist/tests --recursive --require esm --timeout 15000",
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
