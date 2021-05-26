@@ -1,3 +1,10 @@
+### [3.1.5](https://github.com/tapsellorg/eslint-plugin/compare/v3.1.4...v3.1.5) (2021-05-26)
+
+
+### Bug Fixes
+
+* **angular:** remove quotes rule ([4f4db03](https://github.com/tapsellorg/eslint-plugin/commit/4f4db036f1abf44a6ae0df2397db9c5151c06311))
+
 ### [3.1.4](https://github.com/tapsellorg/eslint-plugin/compare/v3.1.3...v3.1.4) (2021-05-14)
 
 
