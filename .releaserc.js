@@ -10,6 +10,7 @@ module.exports = {
           { type: 'refactor', release: 'patch' },
           { type: 'improve', release: 'patch' },
           { breaking: true, release: 'minor' },
+          { type: 'perf', release: 'major' },
         ],
         parserOpts: {
           noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES'],
