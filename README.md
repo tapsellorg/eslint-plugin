@@ -14,26 +14,9 @@ npm i -D @tapsellorg/eslint-plugin eslint
 
 In your ESLint config file `.eslintrc`:
 
-```json
-{
-  "extends": "plugin:@tapsellorg/angular"
-}
-```
-
-Or you can use the `tapsell` plugin.
-
-```json
-{
-  "plugins": ["tapsell"]
-}
-```
-
-Then configure the rules you want to use under the rules section.
-
-```json
-{
-  "rules": {
-    "tapsell/rule-name": 2
-  }
-}
+```js
+module.exports = {
+  extends: 'plugin:@tapsellorg/angular',
+  root: true,
+};
 ```

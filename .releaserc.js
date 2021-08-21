@@ -36,12 +36,11 @@ module.exports = {
     [
       '@semantic-release/git',
       {
-        message:
-          "Release <%= nextRelease.version %> - <%= new Date().toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }) %> [skip ci]\n\n<%= nextRelease.notes %>",
+        message: 'chore: release <%= nextRelease.version %>',
         assets: ['package.json', 'CHANGELOG.md'],
       },
     ],
     '@semantic-release/github',
   ],
-  branches: ['master'],
+  branches: ['master', { name: 'beta', prerelease: true }],
 };
