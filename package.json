@@ -1,6 +1,6 @@
 {
   "name": "@tapsellorg/eslint-plugin",
-  "version": "3.2.0-beta.1",
+  "version": "3.2.0-beta.2",
   "description": "An Eslint plugin recommended by Tapsell.",
   "keywords": [
     "eslint",

@@ -1,3 +1,10 @@
+## [3.2.0-beta.2](https://github.com/tapsellorg/eslint-plugin/compare/v3.2.0-beta.1...v3.2.0-beta.2) (2021-08-21)
+
+
+### Bug Fixes
+
+* **angular:** install deps ([2e50f70](https://github.com/tapsellorg/eslint-plugin/commit/2e50f708456d9c730837d2c9de5256f317048f5c))
+
 ## [3.2.0-beta.1](https://github.com/tapsellorg/eslint-plugin/compare/v3.1.5...v3.2.0-beta.1) (2021-08-21)
 
 
