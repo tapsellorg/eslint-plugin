@@ -1,3 +1,19 @@
+## [3.2.0-beta.1](https://github.com/tapsellorg/eslint-plugin/compare/v3.1.5...v3.2.0-beta.1) (2021-08-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* **angular:** Now you must have a tsconfig.json file in the root of the project. Inside it, include all projects files ("include": ["projects/**/*.ts"])
+
+### Bug Fixes
+
+* **angular:** use tsconfig.json instead of tsconfig.app.json ([462e140](https://github.com/tapsellorg/eslint-plugin/commit/462e14098602469a588af7b8862b4030bdcf5149))
+
+
+### Improvements
+
+* **angular:** update sonarjs plugin ([816c3ee](https://github.com/tapsellorg/eslint-plugin/commit/816c3ee8398f1c2c03f5383fbb4485df694695da))
+
 ### [3.1.5](https://github.com/tapsellorg/eslint-plugin/compare/v3.1.4...v3.1.5) (2021-05-26)
 
 
