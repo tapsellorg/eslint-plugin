@@ -1,3 +1,15 @@
+### [4.2.1](https://github.com/tapsellorg/eslint-plugin/compare/v4.2.0...v4.2.1) (2021-09-04)
+
+
+### Bug Fixes
+
+* **angular:** remove prefer-readonly rule ([6ae4e40](https://github.com/tapsellorg/eslint-plugin/commit/6ae4e407428bee93d8997cc944dad6cacdea9424))
+
+
+### Improvements
+
+* update [@typescript-eslint](https://github.com/typescript-eslint) ([b69939d](https://github.com/tapsellorg/eslint-plugin/commit/b69939d08089a9a69cb6bb56a10488b1f44c61bd))
+
 ## [4.2.0](https://github.com/tapsellorg/eslint-plugin/compare/v4.1.0...v4.2.0) (2021-09-04)
 
 
