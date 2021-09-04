@@ -1,3 +1,10 @@
+## [4.2.0](https://github.com/tapsellorg/eslint-plugin/compare/v4.1.0...v4.2.0) (2021-09-04)
+
+
+### Features
+
+* **angular:** update `parserOptions.project` option to support angular monorepo multiple tsconfig files ([da78466](https://github.com/tapsellorg/eslint-plugin/commit/da784661108bbd217a7a6c4e923ea6936dc94b4a))
+
 ## [4.1.0](https://github.com/tapsellorg/eslint-plugin/compare/v4.0.0...v4.1.0) (2021-08-31)
 
 
