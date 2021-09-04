@@ -1,3 +1,10 @@
+## [4.1.0](https://github.com/tapsellorg/eslint-plugin/compare/v4.0.0...v4.1.0) (2021-08-31)
+
+
+### Features
+
+* **angular:** add more rules from eslint and typescript-eslint. remove rxjs and import plugins ([cfaef40](https://github.com/tapsellorg/eslint-plugin/commit/cfaef407e134592b9b50ba637008335c92e3f003))
+
 ## [4.0.0](https://github.com/tapsellorg/eslint-plugin/compare/v3.1.5...v4.0.0) (2021-08-21)
 
 
