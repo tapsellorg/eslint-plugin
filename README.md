@@ -20,3 +20,26 @@ module.exports = {
   root: true,
 };
 ```
+
+**Note:** This configuration is for angular workspaces (monorepo). If you have a single Angular project, use this config:
+
+```js
+module.exports = {
+  extends: 'plugin:@tapsellorg/angular',
+  root: true,
+  overrides: [
+    {
+      files: ['*.ts'],
+      parserOptions: {
+        project: ['tsconfig.json'],
+        createDefaultProgram: false,
+      },
+    },
+  ],
+};
+```
+
+Run your eslint command. If you get any `The file does not match your project config, The file must be included in at least one of the projects provided` errors, read these docs:
+
+- [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/TYPED_LINTING.md)
+- [angular-eslint](https://github.com/angular-eslint/angular-eslint#eslint-configs-and-performance)
