@@ -1,3 +1,10 @@
+### [4.2.2](https://github.com/tapsellorg/eslint-plugin/compare/v4.2.1...v4.2.2) (2021-09-06)
+
+
+### Bug Fixes
+
+* **angular:** disable some rules as they're producing a lot of warnings that aren't really important ([dad212f](https://github.com/tapsellorg/eslint-plugin/commit/dad212f005b3151703b5e05d3b68e0e463c097f7))
+
 ### [4.2.1](https://github.com/tapsellorg/eslint-plugin/compare/v4.2.0...v4.2.1) (2021-09-04)
 
 
