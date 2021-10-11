@@ -1,3 +1,11 @@
+### [4.2.3](https://github.com/tapsellorg/eslint-plugin/compare/v4.2.2...v4.2.3) (2021-09-18)
+
+
+### Improvements
+
+* **angular:** change eqeqeq in html to warn ([953f702](https://github.com/tapsellorg/eslint-plugin/commit/953f7029199c2e7439ebde80d0042065fb117dbc))
+* **angular:** change no-console to error ([6c0c31b](https://github.com/tapsellorg/eslint-plugin/commit/6c0c31bbea429133843075b24ba29183166801a6))
+
 ### [4.2.2](https://github.com/tapsellorg/eslint-plugin/compare/v4.2.1...v4.2.2) (2021-09-06)
 
 
