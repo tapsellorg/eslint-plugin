@@ -1,3 +1,10 @@
+### [4.2.4](https://github.com/tapsellorg/eslint-plugin/compare/v4.2.3...v4.2.4) (2021-10-11)
+
+
+### Bug Fixes
+
+* peer dependencies ([f8d80de](https://github.com/tapsellorg/eslint-plugin/commit/f8d80de857260ef61475601633ca895bab568093))
+
 ### [4.2.3](https://github.com/tapsellorg/eslint-plugin/compare/v4.2.2...v4.2.3) (2021-09-18)
 
 
