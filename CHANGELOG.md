@@ -1,3 +1,10 @@
+### [4.2.5](https://github.com/tapsellorg/eslint-plugin/compare/v4.2.4...v4.2.5) (2021-10-30)
+
+
+### Bug Fixes
+
+* remove member-ordering warnings ([3962aa9](https://github.com/tapsellorg/eslint-plugin/commit/3962aa9824057bf37736d16c9e27e4fc7dbf1027))
+
 ### [4.2.4](https://github.com/tapsellorg/eslint-plugin/compare/v4.2.3...v4.2.4) (2021-10-11)
 
 
