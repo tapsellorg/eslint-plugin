@@ -1,3 +1,10 @@
+### [4.2.6](https://github.com/tapsellorg/eslint-plugin/compare/v4.2.5...v4.2.6) (2021-11-24)
+
+
+### Bug Fixes
+
+* **angular:** peer dependencies and versions of peerdeps packages ([e89197a](https://github.com/tapsellorg/eslint-plugin/commit/e89197af94f6efa879cf71801283bc95b111c03c))
+
 ### [4.2.5](https://github.com/tapsellorg/eslint-plugin/compare/v4.2.4...v4.2.5) (2021-10-30)
 
 
