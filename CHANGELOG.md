@@ -1,3 +1,10 @@
+## [5.0.0](https://github.com/tapsellorg/eslint-plugin/compare/v4.2.7...v5.0.0) (2021-12-25)
+
+
+### Bug Fixes
+
+* **rules:** update injected-service-name to match eslintv8 ([376ce84](https://github.com/tapsellorg/eslint-plugin/commit/376ce8455e56d41953c36d685c44c17b2dc3d5f2))
+
 ### [4.2.7](https://github.com/tapsellorg/eslint-plugin/compare/v4.2.6...v4.2.7) (2021-12-01)
 
 
