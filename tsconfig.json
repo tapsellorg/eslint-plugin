@@ -3,6 +3,6 @@
   "compilerOptions": {
     "outDir": "./dist"
   },
-  "include": ["lib", "tests"],
+  "include": ["lib", "tests", "test-project"],
   "exclude": ["node_modules"]
 }
