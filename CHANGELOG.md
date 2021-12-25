@@ -1,3 +1,12 @@
+### [4.2.7](https://github.com/tapsellorg/eslint-plugin/compare/v4.2.6...v4.2.7) (2021-12-01)
+
+
+### Bug Fixes
+
+* **angular:** update dependencies and versions ([762bce4](https://github.com/tapsellorg/eslint-plugin/commit/762bce4bd2de10dca3f01497c92b3e8c669d4b84))
+* **angular:** update dependencies and versions ([e20bbb4](https://github.com/tapsellorg/eslint-plugin/commit/e20bbb40973d5b7ca539e7e06a31b878b09a729c))
+* **angular:** update dependencies and versions ([798bbae](https://github.com/tapsellorg/eslint-plugin/commit/798bbae2bf8aeeb631dcd7c47c1732f0fd46add8))
+
 ### [4.2.6](https://github.com/tapsellorg/eslint-plugin/compare/v4.2.5...v4.2.6) (2021-11-24)
 
 
