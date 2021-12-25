@@ -12,7 +12,6 @@ const rule: RuleModule<MessageIds, any> = {
     type: 'suggestion',
     docs: {
       description: 'The name of the injected service should be the camelCase form of the service',
-      category: 'Best Practices',
       recommended: 'warn',
       url: '',
     },
@@ -43,8 +42,10 @@ const rule: RuleModule<MessageIds, any> = {
 
           const parameter = p?.parameter as TSESTree.Identifier | undefined;
 
-          const typeName = ((parameter?.typeAnnotation?.typeAnnotation as TSESTree.TSTypeReference)
-            ?.typeName as TSESTree.Identifier)?.name;
+          const typeName = (
+            (parameter?.typeAnnotation?.typeAnnotation as TSESTree.TSTypeReference)
+              ?.typeName as TSESTree.Identifier
+          )?.name;
 
           if (!typeName?.endsWith('Service')) {
             return;
