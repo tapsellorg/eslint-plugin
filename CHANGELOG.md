@@ -1,3 +1,10 @@
+### [5.0.1](https://github.com/tapsellorg/eslint-plugin/compare/v5.0.0...v5.0.1) (2022-01-04)
+
+
+### Improvements
+
+* **angular:** allow console.assert ([918a847](https://github.com/tapsellorg/eslint-plugin/commit/918a847ec78aadaaa5db3c9c6388a38f3f691168))
+
 ## [5.0.0](https://github.com/tapsellorg/eslint-plugin/compare/v4.2.7...v5.0.0) (2021-12-25)
 
 
