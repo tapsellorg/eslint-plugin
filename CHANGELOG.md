@@ -1,3 +1,10 @@
+## [5.2.0](https://github.com/tapsellorg/eslint-plugin/compare/v5.1.0...v5.2.0) (2023-04-17)
+
+
+### Features
+
+* updated all packages ([482987a](https://github.com/tapsellorg/eslint-plugin/commit/482987a79c602fbc692ae93bd777919be5a55f3b))
+
 ## [5.1.0](https://github.com/tapsellorg/eslint-plugin/compare/v5.0.1...v5.1.0) (2022-10-03)
 
 
