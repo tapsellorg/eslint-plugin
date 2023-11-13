@@ -8,7 +8,7 @@
     "eslint-plugin",
     "typescript"
   ],
-  "author": "Vahid Mohammadi <vahidm1467@gmail.com>",
+  "author": "Mohammad Reza Pourmoradi <mrezzap@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tapsellorg/eslint-plugin/issues"
