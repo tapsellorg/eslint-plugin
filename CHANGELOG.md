@@ -1,3 +1,13 @@
+## [5.4.0](https://github.com/tapsellorg/eslint-plugin/compare/v5.3.0...v5.4.0) (2023-11-13)
+
+
+### Features
+
+* updated action and node version ([596a70e](https://github.com/tapsellorg/eslint-plugin/commit/596a70e344d24d53c6c55dfc78fa86b7c43fb814))
+* updated all packages ([4dbda12](https://github.com/tapsellorg/eslint-plugin/commit/4dbda12be247b21465a33b6896f4aefab844a953))
+* updated all packages ([f817a6b](https://github.com/tapsellorg/eslint-plugin/commit/f817a6b0618825c3ef1c2521d0836d385b3c1f8a))
+* updated all packages ([d30b46f](https://github.com/tapsellorg/eslint-plugin/commit/d30b46f8b1b47191791031176f588c594963d552))
+
 ## [5.3.0](https://github.com/tapsellorg/eslint-plugin/compare/v5.2.0...v5.3.0) (2023-11-13)
 
 
