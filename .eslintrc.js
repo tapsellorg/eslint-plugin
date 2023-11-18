@@ -9,9 +9,8 @@ module.exports = {
         project: ['tsconfig.json', './projects/*/tsconfig.json'],
         createDefaultProgram: false,
       },
-      plugins: [/*'rxjs',*/ 'sonarjs', 'unused-imports','@typescript-eslint'],
+      plugins: [/*'rxjs',*/ 'sonarjs', 'unused-imports'],
       extends: ['plugin:sonarjs/recommended', 'plugin:@angular-eslint/recommended', 'prettier'],
-      parser: '@typescript-eslint/parser',
       rules: {
         // Eslint
         'no-negated-in-lhs': 'error',
@@ -48,48 +47,6 @@ module.exports = {
         ],
         'arrow-body-style': 'warn',
         // Typescript eslint
-        '@typescript-eslint/no-unused-vars': 'off', // turned off because of unused-imports/no-unused-vars
-        '@typescript-eslint/no-empty-function': [
-          'warn',
-          { allow: ['constructors', 'arrowFunctions'] },
-        ],
-        '@typescript-eslint/member-ordering': 'off',
-        '@typescript-eslint/naming-convention': [
-          'warn',
-          {
-            selector: 'default',
-            format: ['camelCase'],
-          },
-          {
-            selector: 'variable',
-            format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
-            leadingUnderscore: 'allow',
-          },
-          {
-            selector: 'parameter',
-            format: ['camelCase'],
-            leadingUnderscore: 'allow',
-          },
-          {
-            selector: 'memberLike',
-            format: ['camelCase', 'UPPER_CASE'],
-            leadingUnderscore: 'allow',
-          },
-          {
-            selector: 'typeLike',
-            format: ['PascalCase'],
-          },
-        ],
-        '@typescript-eslint/array-type': ['warn', { default: 'array' }],
-        '@typescript-eslint/no-this-alias': 'warn',
-        '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'warn',
-        // '@typescript-eslint/no-unnecessary-condition': 'warn', // TODO: uncomment when all projects are strict:true
-        // '@typescript-eslint/no-unsafe-member-access': 'warn', // This is producing a lot of warnings that aren't really important.
-        '@typescript-eslint/prefer-includes': 'error',
-        '@typescript-eslint/prefer-as-const': 'warn',
-        '@typescript-eslint/prefer-nullish-coalescing': 'warn',
-        '@typescript-eslint/prefer-optional-chain': 'warn',
-        '@typescript-eslint/prefer-reduce-type-parameter': 'warn',
         // angular eslint
         '@angular-eslint/no-input-rename': 'off',
         '@angular-eslint/no-empty-lifecycle-method': 'off',
