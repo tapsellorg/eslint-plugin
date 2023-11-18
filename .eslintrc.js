@@ -9,8 +9,9 @@ module.exports = {
         project: ['tsconfig.json', './projects/*/tsconfig.json'],
         createDefaultProgram: false,
       },
-      plugins: [/*'rxjs',*/ 'sonarjs', 'unused-imports'],
+      plugins: [/*'rxjs',*/ 'sonarjs', 'unused-imports','@typescript-eslint'],
       extends: ['plugin:sonarjs/recommended', 'plugin:@angular-eslint/recommended', 'prettier'],
+      parser: '@typescript-eslint/parser',
       rules: {
         // Eslint
         'no-negated-in-lhs': 'error',
