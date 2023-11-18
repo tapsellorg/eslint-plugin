@@ -3,21 +3,23 @@
  * @author Vahid Mohammadi
  */
 import { TSESTree } from '@typescript-eslint/experimental-utils';
-import { RuleModule } from '@typescript-eslint/experimental-utils/dist/ts-eslint';
+import { RuleModule } from '@typescript-eslint/utils/dist/ts-eslint';
 
 type MessageIds = 'wrongInjectedServiceName';
 
 const rule: RuleModule<MessageIds, any> = {
+  defaultOptions: [],
   meta: {
     type: 'suggestion',
     docs: {
       description: 'The name of the injected service should be the camelCase form of the service',
-      recommended: 'warn',
+      recommended: 'recommended',
       url: '',
     },
     // fixable: 'code',
     schema: [
       {
+        type: 'string',
         enum: ['always', 'never'],
       },
     ],
