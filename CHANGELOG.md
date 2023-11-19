@@ -1,3 +1,20 @@
+## [5.5.0](https://github.com/tapsellorg/eslint-plugin/compare/v5.4.0...v5.5.0) (2023-11-19)
+
+
+### Features
+
+* removed unused rules and update some packages ([bb2759d](https://github.com/tapsellorg/eslint-plugin/commit/bb2759d1804c13e568906e3efb8654d9ccbb37b6))
+* updated all packages ([5b1c091](https://github.com/tapsellorg/eslint-plugin/commit/5b1c091979bccf6f46861e5e52e89f653031f661))
+* updated all packages ([c026053](https://github.com/tapsellorg/eslint-plugin/commit/c026053e70900dfeb78fe358d7ceca29dc9607dc))
+
+
+### Refactors
+
+* bumped version ([7d09c03](https://github.com/tapsellorg/eslint-plugin/commit/7d09c03a9ea362203c69b0af5a59bb6b1948f308))
+* changed ci ([de059f1](https://github.com/tapsellorg/eslint-plugin/commit/de059f1f1a3dced604640ec9f5af5519c11b4f89))
+* changed ci ([ea925ef](https://github.com/tapsellorg/eslint-plugin/commit/ea925efa38e9590adb7ffaa8b215cc60679cf6fb))
+* changed ci ([3df64d1](https://github.com/tapsellorg/eslint-plugin/commit/3df64d1b49aa3269804a3c9a43ee24b5bc1b03b1))
+
 ## [5.4.0](https://github.com/tapsellorg/eslint-plugin/compare/v5.3.0...v5.4.0) (2023-11-13)
 
 
