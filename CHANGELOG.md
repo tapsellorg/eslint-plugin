@@ -1,3 +1,10 @@
+## [5.5.1](https://github.com/tapsellorg/eslint-plugin/compare/v5.5.0...v5.5.1) (2024-01-21)
+
+
+### Refactors
+
+* changed config files ([2e7afde](https://github.com/tapsellorg/eslint-plugin/commit/2e7afdebbbfa1757b69e2622e7e044291b27fa0c))
+
 ## [5.5.0](https://github.com/tapsellorg/eslint-plugin/compare/v5.4.0...v5.5.0) (2023-11-19)
 
 
