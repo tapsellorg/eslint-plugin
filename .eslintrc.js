@@ -10,7 +10,7 @@ module.exports = {
         createDefaultProgram: false,
       },
       plugins: [/*'rxjs',*/ 'sonarjs', 'unused-imports'],
-      extends: ['plugin:sonarjs/recommended', 'plugin:@angular-eslint/recommended', 'prettier'],
+      extends: ['plugin:@typescript-eslint/stylistic', 'plugin:@typescript-eslint/recommended', 'plugin:@typescript-eslint/stylistic-type-checked', 'plugin:@typescript-eslint/strict-type-checked', 'plugin:sonarjs/recommended', 'plugin:@angular-eslint/recommended', 'prettier'],
       rules: {
         // Eslint
         'no-negated-in-lhs': 'error',
@@ -28,7 +28,7 @@ module.exports = {
         'no-cond-assign': 'error',
         'no-empty': 'warn',
         'no-redeclare': 'warn',
-        // 'class-methods-use-this': 'warn', // This is producing a lot of warnings that aren't really important.
+        'class-methods-use-this': 'off', // This is producing a lot of warnings that aren't really important.
         'prefer-const': 'warn',
         'no-console': ['error', { allow: ['error', 'warn'] }],
         eqeqeq: ['warn', 'smart'],
@@ -39,7 +39,7 @@ module.exports = {
             paths: [
               {
                 name: 'rxjs/Rx',
-                message: "Please import directly from 'rxjs' instead",
+                message: 'Please import directly from \'rxjs\' instead',
               },
             ],
             patterns: ['../../*'],
@@ -62,6 +62,12 @@ module.exports = {
           'warn',
           { vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_' },
         ],
+        '@typescript-eslint/no-unsafe-call': 'off',
+        '@typescript-eslint/no-unsafe-member-access': 'off', // This is producing a lot of warnings that aren't really important.
+        '@typescript-eslint/no-unsafe-return': 'off',
+        '@typescript-eslint/no-unnecessary-condition': 'off', // TODO: uncomment when all projects are strict:true
+        '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/prefer-nullish-coalescing': 'off',
       },
     },
   ],
