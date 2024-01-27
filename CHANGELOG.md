@@ -1,3 +1,19 @@
+## [5.5.2](https://github.com/tapsellorg/eslint-plugin/compare/v5.5.1...v5.5.2) (2024-01-27)
+
+
+### Bug Fixes
+
+* compatibility with angular 17 ([5045098](https://github.com/tapsellorg/eslint-plugin/commit/5045098f4b800c7c92fa1b1f9c4a249710b5cb71))
+* fix compatibility with angular 17 workspaces ([3b3f8a9](https://github.com/tapsellorg/eslint-plugin/commit/3b3f8a93b09e9f4be79889af195212c9d2f5bedf))
+
+
+### Improvements
+
+* change base project rules to warn ([1e12730](https://github.com/tapsellorg/eslint-plugin/commit/1e1273035f7fa0b4f55d60e41589b9d5ad53e8a0))
+* change base project rules to warn ([2aeaa2a](https://github.com/tapsellorg/eslint-plugin/commit/2aeaa2a55c4ef87f3691d0ffb6743f85ac5ff112))
+* change rules to warn ([651398b](https://github.com/tapsellorg/eslint-plugin/commit/651398b9ec355d1e0b91599b78bb17c13231b834))
+* compatible with angular 17 and latest packages ([9678b74](https://github.com/tapsellorg/eslint-plugin/commit/9678b7444df3437d39fb48efb3bdb884b44fff01))
+
 ## [5.5.1](https://github.com/tapsellorg/eslint-plugin/compare/v5.5.0...v5.5.1) (2024-01-21)
 
 
